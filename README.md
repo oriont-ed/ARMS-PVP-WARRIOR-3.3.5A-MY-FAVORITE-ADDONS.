@@ -1,10 +1,43 @@
-!FixLFDError: Fixes a known Blizzard FrameXML bug (LFDFrame.lua:945 nil strsub error) that occurs when using the Looking For Dungeon (LFD) tool in WotLK 3.3.5a.
-ActionBarCDs: An ultra-performance, zero-allocation cooldown count overlay on your action bar buttons with smooth text scaling and reduced input lag.
-ArenaNameplates: Enhances enemy arena nameplates and frames by displaying enemy cast bars, class icon portraits, and PvP trinket cooldown trackers.
-graphaddon: Displays a real-time visual performance graph on your screen showing your current Framerate (FPS) and network Latency (MS).
-InputBoost: Triggers spell casts, macros, and targeting on key-down (when you press the key) instead of key-up (when you release it), eliminating 50–150ms of input delay.
-LoseControl: Displays an icon with a countdown timer directly in the center of your screen whenever your character suffers crowd control (stuns, silences, fears, roots, etc.).
-RedesignedNameplates: Redesigns default Blizzard nameplates with custom green health bars, class-colored resource/power bars, and cleaner name text formatting.
-WarriorAnnouncer: Automatically alerts your teammates in party/arena chat whenever you successfully land an interrupt (Pummel/Shield Bash), stun (Charge/Intercept/Concussion Blow), Disarm, or Spell Reflection.
-WarriorDebuffNameplates: Tracks and displays Warrior-specific debuff icons with duration timers directly above enemy nameplates (such as Rend, Mortal Strike, Deep Wounds, Hamstring, and Sunder Armor).
-WarriorProcGlow: Adds dynamic glowing action-button borders highlighting your priority rotation spells and procs (e.g. Overpower/Taste for Blood, Revenge, Sudden Death Execute, Whirlwind, and Mortal Strike).
+Combat & Class Optimization (Warrior)
+WarriorAnnouncer
+
+Automatically alerts your party or arena teammates via chat whenever you successfully land an interrupt (Pummel / Shield Bash), crowd control (Charge / Intercept / Concussion Blow), Disarm, or Spell Reflection.
+
+WarriorDebuffNameplates
+
+Displays active Warrior debuff icons and duration timers directly over enemy nameplates (tracks Rend, Mortal Strike, Deep Wounds, Hamstring, and Sunder Armor).
+
+WarriorProcGlow
+
+Adds glowing highlight borders around action buttons when priority rotational procs trigger (e.g., Taste for Blood / Overpower, Revenge, Sudden Death / Execute, Whirlwind, and Mortal Strike).
+
+PvP & Awareness
+ArenaNameplates
+
+Enhances enemy arena nameplates with cast bars, class icon portraits, and PvP trinket cooldown trackers.
+
+LoseControl
+
+Presents a centered icon with a remaining-duration countdown timer whenever your character is hit by crowd control (stuns, silences, fears, roots, and incapacitates).
+
+Interface & Visuals
+ActionBarCDs
+
+A zero-allocation, ultra-performance cooldown overlay for action bars featuring clean numerical scaling and reduced input overhead.
+
+RedesignedNameplates
+
+Replaces default Blizzard nameplates with green health bars, class-colored resource/power bars, and improved typography.
+
+Engine, Input & Performance
+!FixLFDError
+
+Resolves a default Blizzard FrameXML bug (LFDFrame.lua:945 nil strsub) encountered while using the Looking For Dungeon (LFD) tool in patch 3.3.5a.
+
+graphaddon
+
+Renders an on-screen real-time telemetry graph tracking framerate (FPS) and network latency (MS).
+
+InputBoost
+
+Executes abilities, targeting, and macros on key-down (press) rather than key-up (release), cutting 50–150ms off perceived latency.
